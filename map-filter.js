@@ -25,7 +25,8 @@ const numbers = [3, 4, 5, 6, 7, 8];
 
 const bigger = numbers.filter( x => x < 3);
 // filter will return array
+console.log(bigger);
 
 const isThere = numbers.find(x => x > 5);
 // find will return single element
-console.log(isThere);
+// console.log(isThere);
